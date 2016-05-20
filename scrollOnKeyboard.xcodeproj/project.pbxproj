@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEFE37DA1CEF256C00F31B74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFE37D91CEF256C00F31B74 /* AppDelegate.swift */; };
+		AEFE37DC1CEF256C00F31B74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFE37DB1CEF256C00F31B74 /* ViewController.swift */; };
+		AEFE37DF1CEF256C00F31B74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFE37DD1CEF256C00F31B74 /* Main.storyboard */; };
+		AEFE37E11CEF256C00F31B74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFE37E01CEF256C00F31B74 /* Assets.xcassets */; };
+		AEFE37E41CEF256C00F31B74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFE37E21CEF256C00F31B74 /* LaunchScreen.storyboard */; };
+		AEFE37F41CEF29C700F31B74 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE37ED1CEF29C700F31B74 /* TPKeyboardAvoidingCollectionView.m */; };
+		AEFE37F51CEF29C700F31B74 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE37EF1CEF29C700F31B74 /* TPKeyboardAvoidingScrollView.m */; };
+		AEFE37F61CEF29C700F31B74 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE37F11CEF29C700F31B74 /* TPKeyboardAvoidingTableView.m */; };
+		AEFE37F71CEF29C700F31B74 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE37F31CEF29C700F31B74 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		AEFE37FA1CEF2A4B00F31B74 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE37F91CEF2A4B00F31B74 /* test.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AEFE37D61CEF256B00F31B74 /* scrollOnKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrollOnKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFE37D91CEF256C00F31B74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEFE37DB1CEF256C00F31B74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEFE37DE1CEF256C00F31B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEFE37E01CEF256C00F31B74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEFE37E31CEF256C00F31B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEFE37E51CEF256C00F31B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFE37EC1CEF29C700F31B74 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		AEFE37ED1CEF29C700F31B74 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		AEFE37EE1CEF29C700F31B74 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		AEFE37EF1CEF29C700F31B74 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		AEFE37F01CEF29C700F31B74 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		AEFE37F11CEF29C700F31B74 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		AEFE37F21CEF29C700F31B74 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		AEFE37F31CEF29C700F31B74 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		AEFE37F81CEF2A2800F31B74 /* NSObject_test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject_test.h; sourceTree = "<group>"; };
+		AEFE37F91CEF2A4B00F31B74 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		AEFE37FB1CEF2A9100F31B74 /* scrollOnKeyboard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "scrollOnKeyboard-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEFE37D31CEF256B00F31B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEFE37CD1CEF256B00F31B74 = {
+			isa = PBXGroup;
+			children = (
+				AEFE37D81CEF256C00F31B74 /* scrollOnKeyboard */,
+				AEFE37D71CEF256B00F31B74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEFE37D71CEF256B00F31B74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEFE37D61CEF256B00F31B74 /* scrollOnKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEFE37D81CEF256C00F31B74 /* scrollOnKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AEFE37EB1CEF29C700F31B74 /* TPKeyboardAvoiding */,
+				AEFE37D91CEF256C00F31B74 /* AppDelegate.swift */,
+				AEFE37FB1CEF2A9100F31B74 /* scrollOnKeyboard-Bridging-Header.h */,
+				AEFE37F81CEF2A2800F31B74 /* NSObject_test.h */,
+				AEFE37F91CEF2A4B00F31B74 /* test.m */,
+				AEFE37DB1CEF256C00F31B74 /* ViewController.swift */,
+				AEFE37DD1CEF256C00F31B74 /* Main.storyboard */,
+				AEFE37E01CEF256C00F31B74 /* Assets.xcassets */,
+				AEFE37E21CEF256C00F31B74 /* LaunchScreen.storyboard */,
+				AEFE37E51CEF256C00F31B74 /* Info.plist */,
+			);
+			path = scrollOnKeyboard;
+			sourceTree = "<group>";
+		};
+		AEFE37EB1CEF29C700F31B74 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				AEFE37EC1CEF29C700F31B74 /* TPKeyboardAvoidingCollectionView.h */,
+				AEFE37ED1CEF29C700F31B74 /* TPKeyboardAvoidingCollectionView.m */,
+				AEFE37EE1CEF29C700F31B74 /* TPKeyboardAvoidingScrollView.h */,
+				AEFE37EF1CEF29C700F31B74 /* TPKeyboardAvoidingScrollView.m */,
+				AEFE37F01CEF29C700F31B74 /* TPKeyboardAvoidingTableView.h */,
+				AEFE37F11CEF29C700F31B74 /* TPKeyboardAvoidingTableView.m */,
+				AEFE37F21CEF29C700F31B74 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				AEFE37F31CEF29C700F31B74 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEFE37D51CEF256B00F31B74 /* scrollOnKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEFE37E81CEF256C00F31B74 /* Build configuration list for PBXNativeTarget "scrollOnKeyboard" */;
+			buildPhases = (
+				AEFE37D21CEF256B00F31B74 /* Sources */,
+				AEFE37D31CEF256B00F31B74 /* Frameworks */,
+				AEFE37D41CEF256B00F31B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = scrollOnKeyboard;
+			productName = scrollOnKeyboard;
+			productReference = AEFE37D61CEF256B00F31B74 /* scrollOnKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEFE37CE1CEF256B00F31B74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = NextBridge;
+				TargetAttributes = {
+					AEFE37D51CEF256B00F31B74 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = R6TJ494YFN;
+					};
+				};
+			};
+			buildConfigurationList = AEFE37D11CEF256B00F31B74 /* Build configuration list for PBXProject "scrollOnKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEFE37CD1CEF256B00F31B74;
+			productRefGroup = AEFE37D71CEF256B00F31B74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEFE37D51CEF256B00F31B74 /* scrollOnKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEFE37D41CEF256B00F31B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFE37E41CEF256C00F31B74 /* LaunchScreen.storyboard in Resources */,
+				AEFE37E11CEF256C00F31B74 /* Assets.xcassets in Resources */,
+				AEFE37DF1CEF256C00F31B74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEFE37D21CEF256B00F31B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFE37FA1CEF2A4B00F31B74 /* test.m in Sources */,
+				AEFE37DC1CEF256C00F31B74 /* ViewController.swift in Sources */,
+				AEFE37F71CEF29C700F31B74 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				AEFE37F61CEF29C700F31B74 /* TPKeyboardAvoidingTableView.m in Sources */,
+				AEFE37F51CEF29C700F31B74 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				AEFE37F41CEF29C700F31B74 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				AEFE37DA1CEF256C00F31B74 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEFE37DD1CEF256C00F31B74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEFE37DE1CEF256C00F31B74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEFE37E21CEF256C00F31B74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEFE37E31CEF256C00F31B74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEFE37E61CEF256C00F31B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEFE37E71CEF256C00F31B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEFE37E91CEF256C00F31B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = scrollOnKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nxb.scrollOnKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "scrollOnKeyboard/scrollOnKeyboard-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		AEFE37EA1CEF256C00F31B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = scrollOnKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nxb.scrollOnKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "scrollOnKeyboard/scrollOnKeyboard-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEFE37D11CEF256B00F31B74 /* Build configuration list for PBXProject "scrollOnKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFE37E61CEF256C00F31B74 /* Debug */,
+				AEFE37E71CEF256C00F31B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEFE37E81CEF256C00F31B74 /* Build configuration list for PBXNativeTarget "scrollOnKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFE37E91CEF256C00F31B74 /* Debug */,
+				AEFE37EA1CEF256C00F31B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEFE37CE1CEF256B00F31B74 /* Project object */;
+}
